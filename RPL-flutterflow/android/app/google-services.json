@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1001189041631",
+    "project_id": "tanikita-2178e",
+    "storage_bucket": "tanikita-2178e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1001189041631:android:4cc0bc0af0353becb2906a",
+        "android_client_info": {
+          "package_name": "com.mycompany.rpltanikita"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC71sYUAUA3UYmcB2OICZ5uWeq_eLiFHG0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
