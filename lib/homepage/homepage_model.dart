@@ -1,23 +1,17 @@
-import 'package:flutter/material.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import 'homepage_widget.dart' show HomepageWidget;
+import 'package:flutter/material.dart';
 
 class HomepageModel extends FlutterFlowModel<HomepageWidget> {
-  /// State fields for stateful widgets in this page.
-  final FocusNode unfocusNode;
+  ///  State fields for stateful widgets in this page.
 
-  /// Constructor
-  HomepageModel() : unfocusNode = FocusNode();
+  final unfocusNode = FocusNode();
 
   @override
-  void initState(BuildContext context) {
-    // Add initialization code here if needed
-  }
+  void initState(BuildContext context) {}
 
   @override
   void dispose() {
-    // Dispose the focus node to free up resources
     unfocusNode.dispose();
-    super.dispose();
   }
 }
