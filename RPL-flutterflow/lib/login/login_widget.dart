@@ -186,7 +186,7 @@ class _LoginWidgetState extends State<LoginWidget>
                         ),
                         Container(
                           width: double.infinity,
-                          height: 700.0,
+                          height: 800.0,
                           constraints: const BoxConstraints(
                             maxWidth: 602.0,
                           ),
@@ -463,7 +463,7 @@ class _LoginWidgetState extends State<LoginWidget>
                                                           color: FlutterFlowTheme
                                                                   .of(context)
                                                               .secondaryText,
-                                                          size: 24.0,
+                                                          size: 25.0,
                                                         ),
                                                       ),
                                                     ),

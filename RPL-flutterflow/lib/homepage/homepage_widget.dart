@@ -44,7 +44,7 @@ class _HomepageWidgetState extends State<HomepageWidget> {
           title: Align(
             alignment: const AlignmentDirectional(-1.0, -1.0),
             child: Text(
-              'Home Page',
+              'Homepage',
               style: FlutterFlowTheme.of(context).headlineMedium.override(
                     fontFamily: 'Outfit',
                     color: FlutterFlowTheme.of(context).primaryText,
