@@ -54,3 +54,38 @@ class _HomepageWidgetState extends State<HomepageWidget> {
     );
   }
 
+@override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Home Page'),
+      ),
+      body: Padding(
+        padding: const EdgeInsets.all(16.0),
+        child: Column(
+          children: <Widget>[
+            TextField(
+              controller: _model.searchController,
+              focusNode: _model.unfocusNode,
+              decoration: InputDecoration(
+                hintText: 'Enter search term',
+                border: OutlineInputBorder(),
+              ),
+            ),
+            SizedBox(height: 16.0),
+            ElevatedButton(
+              onPressed: _search,
+              child: Text('Search'),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+
+  @override
+  void dispose() {
+    _model.dispose();
+    super.dispose();
+  }
+}
